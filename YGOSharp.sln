@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26014.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YGOSharp", "YGOSharp\YGOSharp.csproj", "{D86E1BE2-1947-4AD6-86E9-59043718DF24}"
 EndProject
@@ -16,31 +16,56 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D86E1BE2-1947-4AD6-86E9-59043718DF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D86E1BE2-1947-4AD6-86E9-59043718DF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86E1BE2-1947-4AD6-86E9-59043718DF24}.Debug|x64.ActiveCfg = Debug|x64
+		{D86E1BE2-1947-4AD6-86E9-59043718DF24}.Debug|x64.Build.0 = Debug|x64
 		{D86E1BE2-1947-4AD6-86E9-59043718DF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D86E1BE2-1947-4AD6-86E9-59043718DF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86E1BE2-1947-4AD6-86E9-59043718DF24}.Release|x64.ActiveCfg = Release|x64
+		{D86E1BE2-1947-4AD6-86E9-59043718DF24}.Release|x64.Build.0 = Release|x64
 		{6086FE8A-07CD-4720-A024-6AEC05E93762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6086FE8A-07CD-4720-A024-6AEC05E93762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6086FE8A-07CD-4720-A024-6AEC05E93762}.Debug|x64.ActiveCfg = Debug|x64
+		{6086FE8A-07CD-4720-A024-6AEC05E93762}.Debug|x64.Build.0 = Debug|x64
 		{6086FE8A-07CD-4720-A024-6AEC05E93762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6086FE8A-07CD-4720-A024-6AEC05E93762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6086FE8A-07CD-4720-A024-6AEC05E93762}.Release|x64.ActiveCfg = Release|x64
+		{6086FE8A-07CD-4720-A024-6AEC05E93762}.Release|x64.Build.0 = Release|x64
 		{79B4527F-0FBE-4756-A4B3-7DA9C73F25AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{79B4527F-0FBE-4756-A4B3-7DA9C73F25AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B4527F-0FBE-4756-A4B3-7DA9C73F25AB}.Debug|x64.ActiveCfg = Debug|x64
+		{79B4527F-0FBE-4756-A4B3-7DA9C73F25AB}.Debug|x64.Build.0 = Debug|x64
 		{79B4527F-0FBE-4756-A4B3-7DA9C73F25AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79B4527F-0FBE-4756-A4B3-7DA9C73F25AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B4527F-0FBE-4756-A4B3-7DA9C73F25AB}.Release|x64.ActiveCfg = Release|x64
+		{79B4527F-0FBE-4756-A4B3-7DA9C73F25AB}.Release|x64.Build.0 = Release|x64
 		{FC0182A3-DB1A-48D4-A432-5F78093B137E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC0182A3-DB1A-48D4-A432-5F78093B137E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0182A3-DB1A-48D4-A432-5F78093B137E}.Debug|x64.ActiveCfg = Debug|x64
+		{FC0182A3-DB1A-48D4-A432-5F78093B137E}.Debug|x64.Build.0 = Debug|x64
 		{FC0182A3-DB1A-48D4-A432-5F78093B137E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC0182A3-DB1A-48D4-A432-5F78093B137E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0182A3-DB1A-48D4-A432-5F78093B137E}.Release|x64.ActiveCfg = Release|x64
+		{FC0182A3-DB1A-48D4-A432-5F78093B137E}.Release|x64.Build.0 = Release|x64
 		{AD18E0AA-1EED-4A2C-A251-B1BF9097892B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD18E0AA-1EED-4A2C-A251-B1BF9097892B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD18E0AA-1EED-4A2C-A251-B1BF9097892B}.Debug|x64.ActiveCfg = Debug|x64
+		{AD18E0AA-1EED-4A2C-A251-B1BF9097892B}.Debug|x64.Build.0 = Debug|x64
 		{AD18E0AA-1EED-4A2C-A251-B1BF9097892B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD18E0AA-1EED-4A2C-A251-B1BF9097892B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD18E0AA-1EED-4A2C-A251-B1BF9097892B}.Release|x64.ActiveCfg = Release|x64
+		{AD18E0AA-1EED-4A2C-A251-B1BF9097892B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B5C3698-7FA9-4500-9794-AF1BBEE00A24}
 	EndGlobalSection
 EndGlobal

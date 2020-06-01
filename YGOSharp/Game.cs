@@ -514,6 +514,22 @@ namespace YGOSharp
 
             State = GameState.Hand;
             SendToAll(GamePacketFactory.Create(StocMessage.DuelStart));
+            var writer1 = GamePacketFactory.Create(StocMessage.DeckCount);
+            writer1.Write((UInt16)Players[0].Deck.Main.Count);
+            writer1.Write((UInt16)Players[0].Deck.Extra.Count);
+            writer1.Write((UInt16)Players[0].Deck.Side.Count);
+            writer1.Write((UInt16)Players[1].Deck.Main.Count);
+            writer1.Write((UInt16)Players[1].Deck.Extra.Count);
+            writer1.Write((UInt16)Players[1].Deck.Side.Count);
+            Players[0].Send(writer1);
+            var writer2 = GamePacketFactory.Create(StocMessage.DeckCount);
+            writer2.Write((UInt16)Players[1].Deck.Main.Count);
+            writer2.Write((UInt16)Players[1].Deck.Extra.Count);
+            writer2.Write((UInt16)Players[1].Deck.Side.Count);
+            writer2.Write((UInt16)Players[0].Deck.Main.Count);
+            writer2.Write((UInt16)Players[0].Deck.Extra.Count);
+            writer2.Write((UInt16)Players[0].Deck.Side.Count);
+            Players[1].Send(writer2);
 
             SendHand();
 
